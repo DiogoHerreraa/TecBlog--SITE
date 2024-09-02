@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: #E6E6E6;
+}
+
+/*CABEÇALHO*/
+header {
+
+    background-color: #FFC400;
+    color: black;
+    text-align: center;
+    padding: 5px;
+   
+    
+}
+/*LINKS*/
+nav{
+
+    text-align: center;
+    background-color: #FFC400;
+    padding-bottom: 20px;
+
+}
+
+/*PRIMEIRA DUVCIDA EM RELAÇÃO AOS LINKS, FOI TEORICAMENTE ESCLARECIDA COM O USO DO PADDING*/ 
+a{
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+a:hover{
+
+    background-color: white;
+    padding: 7px ; /*isso aqui serve para fins esteticos e deixar que o sobre por branco, ou a cor que eu escolher fique mais afastada do link*/
+}
+
+
+/*CONTEUDO PRINCIPAL DO MEU SITE*/
+article {
+    background-color: white;
+    margin: 30px;
+    margin-top: 0px;
+    
+}
+
+/*FOOTER*/
+footer{
+
+    text-align: center;
+    background-color: rgb(146, 140, 140);
+    padding: 2px;
+}
+
