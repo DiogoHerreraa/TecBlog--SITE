@@ -59,9 +59,8 @@ a:link, :visited{
 /*CONTEUDO PRINCIPAL DO MEU SITE*/
 article {
     background-color: white;
-    margin: 30px;
-    margin-top: 0;
-    margin-bottom: 0;
+    width: 920px;
+    margin: 0 auto;
     padding: 15px;
     
 }
