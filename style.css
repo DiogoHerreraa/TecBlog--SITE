@@ -1,8 +1,16 @@
 @charset "UTF-8";
 
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #E6E6E6;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 /*CABEÇALHO*/
@@ -11,11 +19,16 @@ header {
     background-color: #FFC400;
     color: black;
     text-align: center;
-    padding: 5px;
-   
-    
+    padding: 15px;
+    font-size: 2.0em;
 }
-/*LINKS*/
+
+.branco{
+
+    color:white;
+
+}
+/*LINKS DO MENU*/
 nav{
 
     text-align: center;
@@ -24,16 +37,22 @@ nav{
 
 }
 
-/*PRIMEIRA DUVCIDA EM RELAÇÃO AOS LINKS, FOI TEORICAMENTE ESCLARECIDA COM O USO DO PADDING*/ 
 a{
     padding-right: 15px;
     text-decoration: none;
+    
 }
 
 a:hover{
 
     background-color: white;
+    color: #FFC400;
     padding: 7px ; /*isso aqui serve para fins esteticos e deixar que o sobre por branco, ou a cor que eu escolher fique mais afastada do link*/
+}
+
+a:link, :visited{
+
+    color: white;
 }
 
 
@@ -41,15 +60,23 @@ a:hover{
 article {
     background-color: white;
     margin: 30px;
-    margin-top: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px;
     
 }
+
+
+
+
 
 /*FOOTER*/
 footer{
 
     text-align: center;
     background-color: rgb(146, 140, 140);
-    padding: 2px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
 }
 
