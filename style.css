@@ -29,7 +29,7 @@ header {
 
 }
 /*LINKS DO MENU*/
-nav{
+nav{ 
 
     text-align: center;
     background-color: #FFC400;
@@ -37,45 +37,86 @@ nav{
 
 }
 
-a{
+nav a{
+    color: white;
     padding-right: 15px;
     text-decoration: none;
     
 }
 
-a:hover{
+nav>a:hover{
 
     background-color: white;
     color: #FFC400;
     padding: 7px ; /*isso aqui serve para fins esteticos e deixar que o sobre por branco, ou a cor que eu escolher fique mais afastada do link*/
 }
 
-a:link, :visited{
+nav> a:visited {
 
-    color: white;
+    color: black;
 }
+
 
 
 /*CONTEUDO PRINCIPAL DO MEU SITE*/
-article {
-    background-color: white;
+
+main{
+
     width: 920px;
-    margin: 0 auto;
-    padding: 15px;
-    
+	margin: 0 auto;
+	padding: 15px;
+
 }
 
 
+main a {
+    color: #FFC400;
+}
+
+
+
+article {
+
+    background-color: white;
+    width: 660px;
+    float: left;  
+}
+
+
+#area-lateral {
+    width: 240px;
+    float: right;
+   
+}
+
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+
+    font-size: 0.8em;
+    padding: 5px;
+   
+
+}
+
+h3{
+    background-color:#FFC400;
+    color: white;
+}
 
 
 
 /*FOOTER*/
 footer{
 
+    clear: both;
     text-align: center;
     background-color: rgb(146, 140, 140);
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 10px;
+    padding: 15px;
+   
 }
 
