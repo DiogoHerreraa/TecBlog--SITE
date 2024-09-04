@@ -19,8 +19,8 @@ header {
     background-color: #FFC400;
     color: black;
     text-align: center;
-    padding: 12px;
-    font-size: 1.7em;
+    padding: 15px;
+    font-size: 2.0em;
 }
 
 .branco{
@@ -115,6 +115,19 @@ h3{
 
    margin-left: 120px;
    padding: 10px;
+}
+
+table{
+
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+.titulo-tabela{
+
+    padding: 3px;
+    background-color: #FFC400;
 }
 
 
