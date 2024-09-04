@@ -13,14 +13,14 @@ body{
     
 }
 
-/*CABEÇALHO*/
+/*CABEÇALHO -- GERAL*/
 header {
 
     background-color: #FFC400;
     color: black;
     text-align: center;
-    padding: 15px;
-    font-size: 2.0em;
+    padding: 12px;
+    font-size: 1.7em;
 }
 
 .branco{
@@ -28,7 +28,7 @@ header {
     color:white;
 
 }
-/*LINKS DO MENU*/
+/*LINKS DO MENU -- GERAL*/
 nav{ 
 
     text-align: center;
@@ -39,7 +39,7 @@ nav{
 
 nav a{
     color: white;
-    padding-right: 15px;
+    padding-right: 20px;
     text-decoration: none;
     
 }
@@ -80,12 +80,14 @@ article {
     background-color: white;
     width: 660px;
     float: left;  
+    
 }
 
 
 #area-lateral {
     width: 240px;
     float: right;
+    
    
 }
 
@@ -106,6 +108,13 @@ article {
 h3{
     background-color:#FFC400;
     color: white;
+}
+
+
+.texto-jogo{
+
+   margin-left: 120px;
+   padding: 10px;
 }
 
 
